@@ -1,6 +1,6 @@
 # problems-database
 
-This is back-end app to create edit delete programming tasks. Run through docker and use the docker image PostgreSQL. 
+This is back-end app to create, edit and delete programming tasks. Run through docker and use the docker image PostgreSQL. 
 
 Usage:
 

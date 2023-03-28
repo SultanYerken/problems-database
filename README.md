@@ -20,6 +20,10 @@ Usage:
     ```bash
     make migrate
     ```
+    
+    Assignment conditions:
+    
+    https://canary-mistake-db3.notion.site/Problems-database-83385d6f43d5445087f93f60f26d8206
 
     Made by:
 

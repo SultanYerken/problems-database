@@ -52,4 +52,3 @@ func main() {
 // migrate -path db/migrations -database 'postgres://postgres:qwerty@localhost:5432/testdb?sslmode=disable' up // миграции в эту БД
 // docker exec -it my_db_1 psql -U postgres -c "SELECT * FROM problem" // посмотреть в таблицу
 
-// TODO first run write topics

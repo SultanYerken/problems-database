@@ -47,8 +47,3 @@ func main() {
 		return
 	}
 }
-
-//  docker exec -it problems-database_db_1 createdb --username=postgres --owner=postgres testdb // создание БД в образе докера
-// migrate -path db/migrations -database 'postgres://postgres:qwerty@localhost:5432/testdb?sslmode=disable' up // миграции в эту БД
-// docker exec -it my_db_1 psql -U postgres -c "SELECT * FROM problem" // посмотреть в таблицу
-

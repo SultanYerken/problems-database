@@ -1,0 +1,12 @@
+1.  docker exec -it "container_id postgres" /bin/bash 
+2.  psql -U postgres
+3.  \d
+
+// docker exec -it problems-database_db_1 createdb --username=postgres --owner=postgres testdb // создание БД в образе докера
+// migrate -path db/migrations -database 'postgres://postgres:qwerty@localhost:5432/testdb?sslmode=disable' up // миграции в эту БД
+// docker exec -it my_db_1 psql -U postgres -c "SELECT * FROM problem" // посмотреть в таблицу
+
+
+
+// go get -u -d github.com/golang-migrate/migrate
+// go install -tags 'postgres' github.com/golang-migrate/migrate/v4/cmd/migrate@latest

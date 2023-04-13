@@ -1,4 +1,4 @@
-module git.01.alem.school/Sultanye/problems-database
+module github.com/Sultanye/problems-database
 
 go 1.19
 
